@@ -1,1 +1,54 @@
+# Visual Studio and VS Code settings
+.vscode/
 .vs/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+
+# .NET Core dependencies
+project.lock.json
+project.assets.json
+*.dll
+*.exe
+*.pdb
+*.db
+
+# Logs and temp files
+*.log
+logs/
+*.tmp
+*.bak
+
+# Environment variables
+appsettings.Development.json
+secrets.json
+
+# Package management
+node_modules/
+npm-debug.log
+packages/
+.env
+
+# Rider and JetBrains settings
+.idea/
+
+# Entity Framework Migrations
+Migrations/
+
+# Resharper files
+*.DotSettings.user
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# IIS
+*.vsidx
+*.vspcc
